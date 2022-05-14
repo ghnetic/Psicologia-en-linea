@@ -256,7 +256,7 @@ jQuery(function ($) {
 		$(".newsletter-form").validator().on("submit", function (event) {
 			if (event.isDefaultPrevented()) {
 				formErrorSub();
-				submitMSGSub(false, "Escribi bien el correo wey. No mames... -SV");
+				submitMSGSub(false, "Escriba un correo electrónico válido");
 			} 
 			else {
 				event.preventDefault();
