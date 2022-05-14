@@ -1,12 +1,12 @@
 /*==============================================================*/
-// Lizo Contact Form  JS
+// Formulario Contactanos Psicoline
 /*==============================================================*/
 (function ($) {
-    "use strict"; // Start of use strict
+    "use strict";
     $("#contactForm").validator().on("submit", function (event) {
         if (event.isDefaultPrevented()) {
             formError();
-            submitMSG(false, "Did you fill in the form properly?");
+            submitMSG(false, "Ups! Parece que hay campos vacios, por favor llénalos");
         } 
         else {
             event.preventDefault();
@@ -15,7 +15,7 @@
     });
 
     function submitForm(){
-        // Initiate Variables With Form Content
+        // Cuidado con los nombres, tienen que tener el mismo que el html
         var name = $("#name").val();
         var email = $("#email").val();
         var msg_subject = $("#msg_subject").val();

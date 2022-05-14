@@ -39,25 +39,25 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "ginethvidea@gmail.com";
+$EmailTo = "sofiagineth4@gmail.com";
 
-$Subject = "New Message Received";
+$Subject = "Formulario de Contacto";
 
 // prepare email body text
 $Body = "";
-$Body .= "Name: ";
+$Body .= "Nombre: ";
 $Body .= $name;
 $Body .= "\n";
-$Body .= "Email: ";
+$Body .= "Correo Electrónico: ";
 $Body .= $email;
 $Body .= "\n";
-$Body .= "Subject: ";
+$Body .= "Razón: ";
 $Body .= $msg_subject;
 $Body .= "\n";
-$Body .= "Phone Number: ";
+$Body .= "Teléfono: ";
 $Body .= $phone_number;
 $Body .= "\n";
-$Body .= "Message: ";
+$Body .= "Mensaje: ";
 $Body .= $message;
 $Body .= "\n";
 
@@ -66,7 +66,7 @@ $success = mail($EmailTo, $Subject, $Body);
 
 // redirect to success page
 if ($success && $errorMSG == ""){
-   echo "success";
+   echo "Pronto nos pondremos en contacto contigo.";
 }else{
     if($errorMSG == ""){
         echo "No funcionó wey :(";

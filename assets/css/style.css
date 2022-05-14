@@ -3879,7 +3879,7 @@ Page Banner Area CSS
 .page-banner-with-full-image {
   position: relative;
   z-index: 1;
-  background-image: url(../../assets/images/page-banner/page-banner-bg-1.jpg);
+  background-image: url(../../assets/images/portada_t.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3903,19 +3903,19 @@ Page Banner Area CSS
 }
 
 .page-banner-with-full-image.item-bg1 {
-  background-image: url(../../assets/images/page-banner/page-banner-bg-2.jpg);
+  background-image: url(../../assets/images/portada_t.jpg);
 }
 
 .page-banner-with-full-image.item-bg2 {
-  background-image: url(../../assets/images/page-banner/page-banner-bg-3.jpg);
+  background-image: url(../../assets/images/portada_t.jpg);
 }
 
 .page-banner-with-full-image.item-bg3 {
-  background-image: url(../../assets/images/page-banner/page-banner-bg-4.jpg);
+  background-image: url(../../assets/images/portada_t.jpg);
 }
 
 .page-banner-with-full-image.item-bg4 {
-  background-image: url(../../assets/images/page-banner/page-banner-bg-5.jpg);
+  background-image: url(../../assets/images/portada_t.jpg);
 }
 
 .page-banner-content-two {
@@ -8267,7 +8267,7 @@ Book Online Area CSS
 }
 
 .book-online-image {
-  background-image: url(../../assets/images/book-online.jpg);
+  background-image: url(../../assets/images/frase_slide3.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8928,7 +8928,7 @@ Contact Area CSS
 }
 
 .contact-image {
-  background-image: url(../../assets/images/contact.jpg);
+  background-image: url(../../assets/images/frase.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
