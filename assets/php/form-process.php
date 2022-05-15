@@ -39,9 +39,9 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "sofiagineth4@gmail.com";
+$EmailTo = "psicolinemh@gmail.com";
 
-$Subject = "Formulario de Contacto";
+$Subject = "Contáctanos - Psicoline";
 
 // prepare email body text
 $Body = "";

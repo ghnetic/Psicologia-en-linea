@@ -37,17 +37,7 @@
     <title>Psicoline - Terapia y tratamiento en línea</title>
 
     <link rel="icon" type="image/png" href="assets/images/logo.png">
-    <!-- Smartsupp Live Chat script -->
-    <script type="text/javascript">
-        var _smartsupp = _smartsupp || {};
-        _smartsupp.key = 'a42c97bad8edfa1214250b3078bf33ceee8a220d';
-        window.smartsupp || (function (d) {
-            var s, c, o = smartsupp = function () { o._.push(arguments) }; o._ = [];
-            s = d.getElementsByTagName('script')[0]; c = d.createElement('script');
-            c.type = 'text/javascript'; c.charset = 'utf-8'; c.async = true;
-            c.src = 'https://www.smartsuppchat.com/loader.js?'; s.parentNode.insertBefore(c, s);
-        })(document);
-    </script>
+
 </head>
 
 <body>
@@ -1204,16 +1194,17 @@
                     <h2>Suscríbete a nuestra página</h2>
                     <p>Con el fin de mantenerte informado, actualizado y que goces de descuentos al suscribirte.</p>
 
-                    <form class="newsletter-form" data-bs-toggle="validator">
+                    <form class="newsletter-form" data-bs-toggle="validator" id="subscribeForm">
                         <div class="row">
                             <div class="col-lg-8 col-md-6">
-                                <input type="email" class="input-newsletter" placeholder="Ingresa tu correo electrónico"
-                                    name="EMAIL" required autocomplete="off">
+                                <input type="email" name="email" id="email" class="form-control" required data-error="Por favor ingresa tu correo electrónico" placeholder="Correo Electrónico">
+                                    <div class="help-block with-errors"></div>
                             </div>
 
                             <div class="col-lg-4 col-md-6">
-                                <button type="submit">Suscribirse Ahora <i class="flaticon-paper-plane"></i></button>
-                                <div id="validator-newsletter" class="form-result"></div>
+                                <button type="submit" class="default-btn">Suscribirse <i class="flaticon-pointer"></i></button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
                             </div>
                         </div>
                     </form>
@@ -1360,6 +1351,7 @@
     <script src="assets/js/form-validator.min.js"></script>
     <!-- Contact JS -->
     <script src="assets/js/contact-form-script.js"></script>
+    <script src="assets/js/subscribe-form-script.js"></script>
     <!-- Wow JS -->
     <script src="assets/js/wow.min.js"></script>
     <!-- Custom JS -->

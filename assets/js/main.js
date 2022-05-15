@@ -1,3 +1,15 @@
+//Chat de la pagina configuracion
+
+	var _smartsupp = _smartsupp || {};
+	_smartsupp.key = 'a42c97bad8edfa1214250b3078bf33ceee8a220d';
+	window.smartsupp || (function (d) {
+		var s, c, o = smartsupp = function () { o._.push(arguments) }; o._ = [];
+		s = d.getElementsByTagName('script')[0]; c = d.createElement('script');
+		c.type = 'text/javascript'; c.charset = 'utf-8'; c.async = true;
+		c.src = 'https://www.smartsuppchat.com/loader.js?'; s.parentNode.insertBefore(c, s);
+	})(document);
+//fin chat
+
 jQuery(function ($) {
     'use strict';
 	

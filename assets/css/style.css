@@ -9120,7 +9120,7 @@ Subscribe Area CSS
 }
 
 .subscribe-inner-box .subscribe-content .newsletter-form #validator-newsletter {
-  color: red;
+  color: green;
   font-weight: 500;
 }
 
