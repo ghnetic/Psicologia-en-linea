@@ -32,6 +32,10 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <!-- Responsive CSS -->
 		<link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 		
 		<title>Psicoline - Galeria</title>
 
@@ -62,14 +66,14 @@
                     <ul class="top-header-information">
                         <li>
                             <i class="flaticon-phone-call"></i>
-                            <a href="https://wa.me/+50432004279/?text=Quiero%20terapia%20personalizada"
+                            <a href="https://wa.me/+50431779487/?text=Quiero%20terapia%20personalizada"
                                 target="_blank">+504
-                                3200-4279</a>
+                                3177-9487</a>
                         </li>
 
                         <li>
                             <i class="flaticon-mail"></i>
-                            <a href="mailto:psiconline2022@gmail.com">psiconline2022@gmail.hn</a>
+                            <a href="mailto:psiconline2022@gmail.com">psiconline2022@gmail.com</a>
                         </li>
 
                         <li>
@@ -169,7 +173,7 @@
 
                             <div class="option-item">
                                 <div class="navbar-btn">
-                                    <a href="pricing.html" class="default-btn">¡Test Examen de Conducir! <i
+                                    <a class="default-btn" style="cursor: pointer;" data-toggle="modal" data-target="#testConducir">¡Test Examen de Conducir! <i
                                             class="flaticon-pointer"></i></a>
                                 </div>
                             </div>
@@ -260,8 +264,90 @@
                 </div>
             </div>
         </div>
-        <!-- End Page Banner Area -->
 
+        <!-- Start Courses Area -->
+        <section class="courses-area ptb-100">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-box">
+                            <div class="courses-image">
+                                <a href="courses-details.html">
+                                    <img src="assets/images/courses/courses-1.jpg" alt="image">
+                                </a>
+                            </div>
+                            <div class="courses-content">
+                                <div class="course-author d-flex align-items-center">
+                                    <img src="assets/images/galeria1.jpg" class="rounded-circle" alt="image">
+                                    <span>Marcela Hernández</span>
+                                </div>
+                                <h3>
+                                    <a href="courses-details.html">Frases Motivacionales</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-box">
+                            <div class="courses-image">
+                                <a href="courses-details.html">
+                                    <img src="assets/images/autoestima.jpg" alt="image" style="height: 233px; width: 350px;">
+                                </a>
+                            </div>
+                            <div class="courses-content">
+                                <div class="course-author d-flex align-items-center">
+                                    <img src="assets/images/galeria1.jpg" class="rounded-circle" alt="image">
+                                    <span>Marcela Hernández</span>
+                                </div>
+                                <h3>
+                                    <a href="courses-details.html">Frasco de Felicidad</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-box">
+                            <div class="courses-image">
+                                <a href="courses-details.html">
+                                    <img src="assets/images/autoestima.jpg" alt="image" style="height: 233px; width: 350px;">
+                                </a>
+                            </div>
+                            <div class="courses-content">
+                                <div class="course-author d-flex align-items-center">
+                                    <img src="assets/images/galeria1.jpg" class="rounded-circle" alt="image">
+                                    <span>Marcela Hernández</span>
+                                </div>
+                                <h3>
+                                    <a href="courses-details.html">Frasco de Felicidad</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-12 col-md-12">
+                        <div class="pagination-area">
+                            <a href="#" class="prev page-numbers"><i class='bx bx-chevrons-left'></i></a>
+                            <span class="page-numbers current" aria-current="page">1</span>
+                            <a href="#" class="page-numbers">2</a>
+                            <a href="#" class="page-numbers">3</a>
+                            <a href="#" class="page-numbers">4</a>
+                            <a href="#" class="next page-numbers"><i class='bx bx-chevrons-right'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Courses Area -->
         <!-- Start Gallery Area -->
         <section class="gallery-area pt-100 pb-70">
             <div class="container">
@@ -399,16 +485,17 @@
                     <h2>Suscríbete a nuestra página</h2>
                     <p>Con el fin de mantenerte informado, actualizado y que goces de descuentos al suscribirte.</p>
 
-                    <form class="newsletter-form" data-bs-toggle="validator">
+                    <form class="newsletter-form" data-bs-toggle="validator" id="subscribeForm">
                         <div class="row">
                             <div class="col-lg-8 col-md-6">
-                                <input type="email" class="input-newsletter" placeholder="Ingresa tu correo electrónico"
-                                    name="EMAIL" required autocomplete="off">
+                                <input type="email" name="email" id="email" class="form-control" required data-error="Por favor ingresa tu correo electrónico" placeholder="Correo Electrónico">
+                                    <div class="help-block with-errors"></div>
                             </div>
 
                             <div class="col-lg-4 col-md-6">
-                                <button type="submit">Suscribirse Ahora <i class="flaticon-paper-plane"></i></button>
-                                <div id="validator-newsletter" class="form-result"></div>
+                                <button type="submit" class="default-btn">Suscribirse <i class="flaticon-pointer"></i></button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
                             </div>
                         </div>
                     </form>
@@ -490,13 +577,13 @@
                             <li>
                                 <i class='flaticon-phone-call'></i>
                                 <span>Teléfono:</span>
-                                <a href="https://wa.me/+50432004279/?text=Quiero%20terapia%20personalizada"
-                                    target="_blank">+504 3200-4279</a>
+                                <a href="https://wa.me/+50431779487/?text=Quiero%20terapia%20personalizada"
+                                    target="_blank">+504 3177-9487</a>
                             </li>
                             <li>
                                 <i class='flaticon-mail'></i>
                                 <span>Correo Electrónico:</span>
-                                <a href="mailto:psiconline2022@gmail.com">psiconline2022@gmail.hn</a>
+                                <a href="mailto:psiconline2022@gmail.com">psiconline2022@gmail.com</a>
                             </li>
                             <li>
                                 <i class='flaticon-placeholder'></i>
@@ -529,7 +616,29 @@
             <i class='flaticon-up-arrow'></i>
         </div>
         <!-- End Go Top Area -->
-        
+        <div class="modal fade" id="testConducir" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header" style="align-content: center;">
+                  <h5 class="modal-title" id="exampleModalLabel" style="align-items: center;">Test Examen Conducir</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ¡Hola! Recuerda que ofrecemos el test de <strong>renovación</strong> de la licencia de conducir. 
+                  <br>
+                  Tiene un costo de <strong>200 L.</strong>
+                  <br><br>
+                  <h6>Será dirigido(a) a nuestro whatsapp para realizar más rápido el proceso.</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                  <a type="button" class="btn btn-success" href="https://wa.me/+50431779487/?text=Quiero%20realizar%20el%20examen%20de%20conducir" target="_blank">Lo Quiero</a>
+                </div>
+              </div>
+            </div>
+          </div>
         <!-- Jquery Slim JS -->
         <script src="assets/js/jquery.min.js"></script>
         <!-- Bootstrap Bundle JS -->
@@ -556,9 +665,21 @@
 		<script src="assets/js/form-validator.min.js"></script>
 		<!-- Contact JS -->
         <script src="assets/js/contact-form-script.js"></script>
+        <script src="assets/js/subscribe-form-script.js"></script>
         <!-- Wow JS -->
         <script src="assets/js/wow.min.js"></script>
         <!-- Custom JS -->
         <script src="assets/js/main.js"></script>
+        <!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '42a9efb28f7e4446add7ff729806a6ff0b8bb019';
+    window.smartsupp||(function(d) {
+      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+      c.type='text/javascript';c.charset='utf-8';c.async=true;
+      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+    </script>
     </body>
 </html>

@@ -32,10 +32,25 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <!-- Responsive CSS -->
 		<link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 		
 		<title>Psicoline - Terminos y Condiciones</title>
 
         <link rel="icon" type="image/png" href="assets/images/logo.png">
+        <!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '42a9efb28f7e4446add7ff729806a6ff0b8bb019';
+    window.smartsupp||(function(d) {
+      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+      c.type='text/javascript';c.charset='utf-8';c.async=true;
+      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+    </script>
     </head>
 
     <body>
@@ -61,14 +76,14 @@
                     <ul class="top-header-information">
                         <li>
                             <i class="flaticon-phone-call"></i>
-                            <a href="https://wa.me/+50432004279/?text=Quiero%20terapia%20personalizada"
+                            <a href="https://wa.me/+50431779487/?text=Quiero%20terapia%20personalizada"
                                 target="_blank">+504
-                                3200-4279</a>
+                                3177-9487</a>
                         </li>
 
                         <li>
                             <i class="flaticon-mail"></i>
-                            <a href="mailto:psiconline2022@gmail.com">psiconline2022@gmail.hn</a>
+                            <a href="mailto:psiconline2022@gmail.com">psiconline2022@gmail.com</a>
                         </li>
 
                         <li>
@@ -168,7 +183,7 @@
 
                             <div class="option-item">
                                 <div class="navbar-btn">
-                                    <a href="pricing.html" class="default-btn">¡Test Examen de Conducir! <i
+                                    <a class="default-btn" style="cursor: pointer;" data-toggle="modal" data-target="#testConducir">¡Test Examen de Conducir! <i
                                             class="flaticon-pointer"></i></a>
                                 </div>
                             </div>
@@ -269,11 +284,11 @@
                         <div class="terms-of-service-content">
                              <!-- 
                             <img src="assets/images/terms-of-service.jpg" alt="image">-->
-                            <p><i>Estos terminos y condiciones fueron actualizados el 13 de Mayo del 2022.</i></p>
+                            <p><i>Estos terminos y condiciones fueron actualizados el 26 de Mayo del 2022.</i></p>
                             <h3><span>1.</span> Nuestro sitio</h3>
                             <p>Nuestro Sitio Web Oficial es: https://psicolinehn.com</p>
                             <blockquote class="blockquote">
-                                <p>Recopilamos ciertos datos de usted directamente, como la información que ingresa usted mismo, datos sobre su participación en cursos y datos de plataformas de terceros que conecta con Psylo. También recopilamos algunos datos automáticamente, como información sobre su dispositivo y con qué partes de nuestros Servicios interactúa o pasa tiempo usando.</p>
+                                <p>Recopilamos ciertos datos de usted directamente, como la información que ingresa usted mismo, datos de plataformas de terceros que conecta con Psicoline. También recopilamos algunos datos automáticamente, como información sobre su dispositivo y con qué partes de nuestros Servicios interactúa o pasa tiempo usando.</p>
                             </blockquote>
                             <h3><span>2.</span> Información que usted nos proporciona</h3>
                             <p>Podemos recopilar diferentes datos de usted o sobre usted según cómo use los Servicios. A continuación se incluyen algunos ejemplos para ayudarlo a comprender mejor los datos que recopilamos.</p>
@@ -283,7 +298,7 @@
                             <ol>
                                 <li>Para responder sus consultas;</li>
                                 <li>
-                                    Enviarle mensajes administrativos e información, incluidos mensajes de instructores y asistentes de enseñanza, notificaciones sobre cambios en nuestro Servicio y actualizaciones de nuestros acuerdos.;</li>
+                                    Enviarle mensajes administrativos e información, incluidos mensajes de su psicólogo y asistentes, notificaciones sobre cambios en nuestro Servicio y actualizaciones de nuestros acuerdos.;</li>
                                 <li>Envío de notificaciones automáticas a su dispositivo inalámbrico para proporcionar actualizaciones y otros mensajes relevantes (que puede administrar desde la página de "opciones" o "configuración" de la aplicación móvil);</li>
                             </ol>
                             <h3><span>5.</span> Es su decisión el uso de su información</h3>
@@ -323,16 +338,17 @@
                     <h2>Suscríbete a nuestra página</h2>
                     <p>Con el fin de mantenerte informado, actualizado y que goces de descuentos al suscribirte.</p>
 
-                    <form class="newsletter-form" data-bs-toggle="validator">
+                    <form class="newsletter-form" data-bs-toggle="validator" id="subscribeForm">
                         <div class="row">
                             <div class="col-lg-8 col-md-6">
-                                <input type="email" class="input-newsletter" placeholder="Ingresa tu correo electrónico"
-                                    name="EMAIL" required autocomplete="off">
+                                <input type="email" name="email" id="email" class="form-control" required data-error="Por favor ingresa tu correo electrónico" placeholder="Correo Electrónico">
+                                    <div class="help-block with-errors"></div>
                             </div>
 
                             <div class="col-lg-4 col-md-6">
-                                <button type="submit">Suscribirse Ahora <i class="flaticon-paper-plane"></i></button>
-                                <div id="validator-newsletter" class="form-result"></div>
+                                <button type="submit" class="default-btn">Suscribirse <i class="flaticon-pointer"></i></button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
                             </div>
                         </div>
                     </form>
@@ -358,14 +374,8 @@
                             <a href="https://www.facebook.com/pg/psicolinehn/posts/" target="_blank">
                                 <i class='bx bxl-facebook'></i>
                             </a>
-                            <a href="#" target="_blank">
-                                <i class='bx bxl-twitter'></i>
-                            </a>
-                            <a href="#" target="_blank">
+                            <a href="https://www.instagram.com/psicoline.hn/" target="_blank">
                                 <i class='bx bxl-instagram'></i>
-                            </a>
-                            <a href="#" target="_blank">
-                                <i class='bx bxl-linkedin'></i>
                             </a>
                         </div>
                     </div>
@@ -396,10 +406,10 @@
 
                         <ul class="quick-links">
                             <li>
-                                <a href="#"><i class='bx bxs-right-arrow'></i> Inicio</a>
+                                <a href="index.html"><i class='bx bxs-right-arrow'></i> Inicio</a>
                             </li>
                             <li>
-                                <a href="services.html"><i class='bx bxs-right-arrow'></i> Áreas de Atención</a>
+                                <a href="gallery.html"><i class='bx bxs-right-arrow'></i> Galeria</a>
                             </li>
                             <li>
                                 <a href="pricing.html"><i class='bx bxs-right-arrow'></i> Planes de Pago</a>
@@ -420,17 +430,18 @@
                             <li>
                                 <i class='flaticon-phone-call'></i>
                                 <span>Teléfono:</span>
-                                <a href="tel:+50432004279">+504 3200-4279</a>
+                                <a href="https://wa.me/+50431779487/?text=Quiero%20terapia%20personalizada"
+                                    target="_blank">+504 3177-9487</a>
                             </li>
                             <li>
                                 <i class='flaticon-mail'></i>
                                 <span>Correo Electrónico:</span>
-                                <a href="mailto:psicolinemh@gmail.com">psicolinemh@gmail.hn</a>
+                                <a href="mailto:psiconline2022@gmail.com">psiconline2022@gmail.com</a>
                             </li>
                             <li>
                                 <i class='flaticon-placeholder'></i>
                                 <span>Ubicación:</span>
-                                Col. Universidad Norte, Bloque M, frente a ASJ.
+                                Tegucigalpa, Honduras.
                             </li>
                         </ul>
                     </div>
@@ -458,6 +469,29 @@
         </div>
         <!-- End Go Top Area -->
         
+        <div class="modal fade" id="testConducir" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header" style="align-content: center;">
+                  <h5 class="modal-title" id="exampleModalLabel" style="align-items: center;">Test Examen Conducir</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ¡Hola! Recuerda que ofrecemos el test de <strong>renovación</strong> de la licencia de conducir. 
+                  <br>
+                  Tiene un costo de <strong>200 L.</strong>
+                  <br><br>
+                  <h6>Será dirigido(a) a nuestro whatsapp para realizar más rápido el proceso.</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                  <a type="button" class="btn btn-success" href="https://wa.me/+50431779487/?text=Quiero%20realizar%20el%20examen%20de%20conducir" target="_blank">Lo Quiero</a>
+                </div>
+              </div>
+            </div>
+          </div>
         <!-- Jquery Slim JS -->
         <script src="assets/js/jquery.min.js"></script>
         <!-- Bootstrap Bundle JS -->
@@ -484,6 +518,7 @@
 		<script src="assets/js/form-validator.min.js"></script>
 		<!-- Contact JS -->
         <script src="assets/js/contact-form-script.js"></script>
+        <script src="assets/js/subscribe-form-script.js"></script>
         <!-- Wow JS -->
         <script src="assets/js/wow.min.js"></script>
         <!-- Custom JS -->
